@@ -2,6 +2,7 @@ import React from "react";
 
 function onClickButton(event) {
   event.preventDefault();
+  alert("Currently we are not accepting new requests. !!!")
 }
 
 function Contact() {

@@ -9,23 +9,23 @@ function Navbar() {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg">
               <NavLink className="navbar-brand" to="/">
-                TechFinovation
+                TechFinovation株式会社
               </NavLink>
               <button className="navbar-toggler" type="button">
                 <span className="navbar-toggler-icon"></span>
               </button>
 
               <div
-                className="collapse navbar-collapse"
+                className="collapse navbar-collapse justify-content-end"
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-                  <li className="nav-item active">
+                <ul className="navbar-nav ml-auto mt-2 mb-2 mb-lg-0">
+                  <li className="nav-item active px-3">
                     <NavLink className="nav-link" to="/">
                       Home
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item px-3">
                     <NavLink
                       activeClassName="menu_active"
                       className="nav-link"
@@ -34,7 +34,7 @@ function Navbar() {
                       Services
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item px-3">
                     <NavLink
                       activeClassName="menu_active"
                       className="nav-link"
@@ -43,7 +43,7 @@ function Navbar() {
                       About Us
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item px-3">
                     <NavLink
                       activeClassName="menu_active"
                       className="nav-link"
