@@ -11,17 +11,23 @@ function Navbar() {
               <NavLink className="navbar-brand" to="/">
                 TechFinovation株式会社
               </NavLink>
-              <button className="navbar-toggler" type="button">
+              <button 
+                className="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
-
               <div
-                className="collapse navbar-collapse justify-content-end"
+                className="navbar-collapse collapse justify-content-end"
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav ml-auto mt-2 mb-2 mb-lg-0">
                   <li className="nav-item active px-3">
-                    <NavLink className="nav-link" to="/">
+                    <NavLink className="nav-link" to="/" activeClassName="menu_active">
                       Home
                     </NavLink>
                   </li>
